@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f3f3f3;
+    background: #ccc;
 }
 
 .gallery {
@@ -30,6 +30,7 @@ body {
 .gallery-item:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    
 }
 
 /* Estilo de la ventana modal */
@@ -45,12 +46,14 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
+    
 }
 
 .modal-content {
     max-width: 90%;
     max-height: 80%;
     animation: fadeIn 0.3s ease;
+    border-radius: 4px;
 }
 
 @keyframes fadeIn {
